@@ -19,7 +19,7 @@ app.use(express.urlencoded({extended:true}));
 
 
 const httpServer = app.listen(PORT, () =>{
-    console.log(`Servidor funcionado en el puerto:${$PORT}`);
+    console.log(`Servidor funcionado en el puerto:${PORT}`);
 })
  
 app.engine("handlebars", engine());
